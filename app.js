@@ -41,13 +41,11 @@ function checkWinner(){
                     boxes.forEach((btn) => {
                         btn.disabled = true;
                     })
-                    console.log("winner x");
                 }else{
                     para.innerText = "Winner is O!!";
                     boxes.forEach((btn) => {
                         btn.disabled = true;
                     })
-                    console.log("winner o");
                 }
             }
         }
