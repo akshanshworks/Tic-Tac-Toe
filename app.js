@@ -37,12 +37,12 @@ function checkWinner(){
         if(pos1value != "" && pos2value != "" && pos3value != ""){
             if(pos1value == pos2value && pos2value == pos3value){
                 if(pos1value == "x" && pos2value == "x" && pos3value == "x"){
-                    para.innerText = "Winner is X!!";
+                    para.innerText = "X is the Winner!!";
                     boxes.forEach((btn) => {
                         btn.disabled = true;
                     })
                 }else{
-                    para.innerText = "Winner is O!!";
+                    para.innerText = "O is the Winner!!";
                     boxes.forEach((btn) => {
                         btn.disabled = true;
                     })
